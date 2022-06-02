@@ -1,0 +1,218 @@
+/* IDs have to be unique across the page ie there shouldn't be two IDs with the same labelling/name. */
+/* #title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+} */
+
+/*
+  1. combining selectors
+  selector1, selector2{}...etc
+
+  2.Hierarchical selectors: first selector is from the parent, second is from the child.
+  SPACING IS VERY IMPORTANT IN HEIRARCHICAL SELECTOR COMBINATION. the hierachy is from
+  right to left ie the element on the right is the vhild while the one on the left is the parent.
+
+
+  3.COMBINED SELECTORS: here, there are no spaces involved between the two selectors and bpth SELECTORSare equals.
+  ie when there is no spacing, the syntax is read from left to right and there is no hierachy.   */
+
+  /* HTML styles */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+/* navigation bar */
+#navbarTogglerDemo01 {
+  padding-left: 350px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  /* font-family: "Montserrat-Light"; */
+  font-size: 1.2rem;
+}
+
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Image-picture */
+.image-rotate {
+  width: 60%;
+  background-color: transparent;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width:1150px) {
+  .image-rotate {
+    transform: none;
+    text-align: center;
+    position: static;
+  }
+}
+
+/* Feature Section */
+#features {
+  /* background: #fff; */
+  z-index: 1;
+  position: relative;
+}
+
+.col-lg-4 {
+  padding: 5%;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  padding: 5%;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  /* color: #fff; */
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  /* : 7% 15%; */
+}
+
+/* Press-Section */
+#press {
+  background-color: #ef8172;
+  /* text-align: center; */
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing-Section  */
+#pricing {
+  padding: 100px;
+  /* text-align: center; */
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* call to action section */
+#cta {
+  /* background-color: #ff4c68; */
+  /* text-align: center; */
+  /* color: #fff; */
+  /* padding: 7% 15%; */
+}
+
+/* .cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 900;
+} */
+/* footer-section */
+
+/* Footer */
+#footer {
+  /* padding: 7% 15%; */
+  /* text-align: center; */
+}
+
+ #footer .container-fluid{
+   padding: 3% 15%;
+ }
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright{
+  margin-top: 0;
+  margin-bottom:3rem;
+}
